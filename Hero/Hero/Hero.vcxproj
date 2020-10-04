@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CharacterData.cpp" />
+    <ClCompile Include="GameMode.cpp" />
+    <ClCompile Include="GamePlayStatics.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapData.cpp" />
+    <ClCompile Include="PlayerCharacter.cpp" />
+    <ClCompile Include="RPSGameMode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CharacterData.h" />
+    <ClInclude Include="GameMode.h" />
+    <ClInclude Include="GamePlayStatics.h" />
+    <ClInclude Include="MapData.h" />
+    <ClInclude Include="PlayerCharacter.h" />
+    <ClInclude Include="RPSGameMode.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{628B782C-7683-4783-8055-EB980E5FB20F}</ProjectGuid>
