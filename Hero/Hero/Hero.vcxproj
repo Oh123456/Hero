@@ -114,23 +114,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\CharacterData.cpp" />
-    <ClCompile Include="..\GameMode.cpp" />
-    <ClCompile Include="..\GamePlayStatics.cpp" />
-    <ClCompile Include="..\main.cpp" />
-    <ClCompile Include="..\MapData.cpp" />
-    <ClCompile Include="..\PlayerCharacter.cpp" />
-    <ClCompile Include="..\RPSGameMode.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\CharacterData.h" />
-    <ClInclude Include="..\GameMode.h" />
-    <ClInclude Include="..\GamePlayStatics.h" />
-    <ClInclude Include="..\MapData.h" />
-    <ClInclude Include="..\PlayerCharacter.h" />
-    <ClInclude Include="..\RPSGameMode.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
