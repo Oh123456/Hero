@@ -37,7 +37,7 @@ public:
 	// 할당해제
 	void ClearMapData();
 
-
+	int GetStandingTile() { return standingTile; }
 private:
 	Position mapMax;
 	Position shop;

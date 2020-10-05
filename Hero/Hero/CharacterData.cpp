@@ -43,3 +43,23 @@ std::string CharacterData::RPSintToString(int RPS)
 		return "¿¡·¯";
 	}
 }
+
+void CharacterData::SettingCharacterData(std::string name, int characterLevel, int attackValue, int maxHP, int Exp, int money)
+{
+	this->name = name;
+	this->characterLevel = characterLevel;
+	this->attackValue = attackValue;
+	this->maxHP = maxHP;
+	this->HP = maxHP;
+	this->Exp = Exp;
+	this->money = money;
+}
+
+void CharacterData::SettingCharacterData(int characterLevel, int maxHP, int Exp, int money)
+{
+	this->characterLevel = characterLevel;
+	this->maxHP = maxHP;
+	this->HP = maxHP;
+	this->Exp = Exp;
+	this->money = money;
+}

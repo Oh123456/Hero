@@ -32,7 +32,9 @@
     <ClInclude Include="GameMode.h" />
     <ClInclude Include="GamePlayStatics.h" />
     <ClInclude Include="MapData.h" />
+    <ClInclude Include="pch.h" />
     <ClInclude Include="PlayerCharacter.h" />
+    <ClInclude Include="Rand.h" />
     <ClInclude Include="RPSGameMode.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
