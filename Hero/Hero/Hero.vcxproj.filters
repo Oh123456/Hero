@@ -13,48 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Character">
+      <UniqueIdentifier>{7ac32c78-6e12-4008-ac4c-81d830e0ad9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMode">
+      <UniqueIdentifier>{5a8fd59c-6f85-400a-bb8f-34aa33653bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{4cb7d965-5649-485a-9a66-4d83ce1f1bcc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="MapData.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="CharacterData.cpp">
+      <Filter>Character</Filter>
     </ClCompile>
     <ClCompile Include="PlayerCharacter.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RPSGameMode.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CharacterData.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Character</Filter>
     </ClCompile>
     <ClCompile Include="GameMode.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>GameMode</Filter>
     </ClCompile>
     <ClCompile Include="GamePlayStatics.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="RPSGameMode.cpp">
+      <Filter>GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="MapData.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameMode.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="GamePlayStatics.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="MapData.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="CharacterData.h">
+      <Filter>Character</Filter>
     </ClInclude>
     <ClInclude Include="PlayerCharacter.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>GameMode</Filter>
     </ClInclude>
     <ClInclude Include="RPSGameMode.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>GameMode</Filter>
     </ClInclude>
-    <ClInclude Include="CharacterData.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="MapData.h">
+      <Filter>Map</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
